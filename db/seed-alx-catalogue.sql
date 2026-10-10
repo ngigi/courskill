@@ -1,0 +1,3 @@
+-- DEPRECATED: use db/seed-career-architecture.sql instead.
+-- The career architecture seed now owns the ALX-referenced catalogue and maps it into tracks, programmes and courses.
+-- This file is retained only as a migration notice and should not be executed after the new schema is installed.
