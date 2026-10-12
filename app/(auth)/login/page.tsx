@@ -14,7 +14,6 @@ const router = useRouter();
 async function submit(e: React.FormEvent) {
 e.preventDefault();
 
-```
 const s = createClient();
 const result = signup
   ? await s.auth.signUp({ email, password })
@@ -31,7 +30,6 @@ if (result.error) {
 
   if (!signup) router.push('/dashboard');
 }
-```
 
 }
 
@@ -41,7 +39,6 @@ return ( <main className="section">
 ? 'Start your Courskills learning journey.'
 : 'Sign in to continue learning.'} </p>
 
-```
       <form onSubmit={submit}>
         <div className="field">
           <label>Email</label>
@@ -81,7 +78,6 @@ return ( <main className="section">
     </div>
   </div>
 </main>
-```
 
 );
 }
